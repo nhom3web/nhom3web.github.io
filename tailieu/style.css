@@ -59,9 +59,133 @@ nav ul li:nth-child(3) i {
 }
 nav ul li:nth-child(4) button {
     height: 30px;
-    padding: 0 8px;
+    padding: 0 12px;
     cursor: pointer;
     background-color: black;
     color:white;
     border: 1px solid white;
+    border-radius: 5px;
+    transition:all 0.5s ease ;
+}
+nav ul li:nth-child(4) button i {
+    margin-right: 6px;
+}
+nav ul li:nth-child(4) button:hover {
+    background-color: rgb(100,97,97);
+}
+nav ul li:nth-child(5){
+    text-align: center;
+}
+nav ul li:nth-child(5):hover a {
+    color: #fff200;
+}
+nav ul li:nth-child(6){
+    text-align: center;
+}
+nav ul li:nth-child(6):hover a {
+    color: #fff200;
+}
+nav ul li:nth-child(7){
+    text-align: center;
+}
+nav ul li:nth-child(7):hover a {
+    color: #fff200;
+}
+nav ul li:nth-child(8){
+    text-align: center;
+}
+nav ul li:nth-child(8):hover a {
+    color: #fff200;
+}
+/*........................menu-bar.................*/
+.menu-bar{
+    background-color: darksalmon;
+
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar ul li a{
+    color: black;
+    font-size: 13px;
+}
+.menu-bar ul li a i{
+    margin-right: 6px;
+    font-size: 16px;
+}
+.menu-bar ul li{
+    padding: 16px 6px;
+    transition: all 0.3s ease;
+    width: 50%;
+}
+.menu-bar ul li:hover{
+    background-color: white;
+}
+
+/*-----------------------adress form---------------------------*/
+.adress-form {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;  
+    display: none;  
+    z-index: 999;
+}
+.adress-form-content{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+}
+.adress-form-content form {
+    padding: 12px 40px;
+}
+.adress-form-content h2{
+    font-size: 14px;
+    padding:12px 0;
+    border-bottom:1px solid #ddd;
+    position: relative;
+}
+.adress-form-content h2 span{
+    display: block;
+    position: absolute;
+    height: 30px;
+    padding: 0 6px;
+    border:  1px solid #ddd;
+    right: 12px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height:30px;
+    color: #333;    
+}
+.adress-form-content form p {
+    font-size: 16px;
+}
+.adress-form-content form input,select{
+    height: 45px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border:1px solid #ddd ;
+    padding: 6px;
+    border-radius: 5px;
+}
+.adress-form-content form button{
+    margin-top: 20px;
+    height:40px ;
+    width:80% ;
+    cursor: pointer;
+    background-color:darksalmon ;
+    outline: none;
+    border: none;
+    color: #ddd;
 }
