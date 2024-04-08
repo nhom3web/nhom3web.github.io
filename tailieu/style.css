@@ -117,6 +117,7 @@ nav ul li:nth-child(8):hover a {
 .menu-bar ul li{
     padding: 16px 6px;
     transition: all 0.3s ease;
+    text-align:center ;
     width: 50%;
 }
 .menu-bar ul li:hover{
