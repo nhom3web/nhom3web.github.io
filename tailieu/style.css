@@ -190,3 +190,11 @@ nav ul li:nth-child(8):hover a {
     border: none;
     color: #ddd;
 }
+/*---------------------submenu-------------------------------*/
+ .menu-bar-content ul li{
+    position: relative;
+
+ }
+ .submenu{
+    position: absolute;
+ }
