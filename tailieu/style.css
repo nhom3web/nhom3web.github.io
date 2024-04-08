@@ -168,7 +168,7 @@ nav ul li:nth-child(8):hover a {
     color: #333;    
 }
 .adress-form-content form p {
-    font-size: 16px;
+    font-size: 16px 6px;
 }
 .adress-form-content form input,select{
     height: 45px;
