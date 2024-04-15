@@ -217,6 +217,9 @@ nav ul li:nth-child(8):hover a {
  .submenu ul li:hover a{
     color: gray;
  }
+ .submenu ul li{
+    padding: 6px 0;
+ }
  .submenu ul li:hover{
     background-color: none; 
     justify-content: space-between;
