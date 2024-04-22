@@ -225,3 +225,34 @@ nav ul li:nth-child(8):hover a {
     justify-content: space-between;
     padding: 10px 2px;
  }
+/* -------------product---------- */
+.product-gallery-one-content-product{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.product-gallery-one-content-product-item{
+    width: 20%;
+    padding: 50px 12px 12px;
+    border: 1px solid rgb(185, 184, 183);
+    cursor: pointer;
+}
+
+.product-gallery-one-content-product-item:hover {
+    box-shadow: #ddd 10px 10px 10px;
+}
+.product-gallery-one-content-product-item img {
+    width:100%;
+}
+.product-gallery-one-content-product-item-text{
+    padding-top: 22px;
+
+}
+.product-gallery-one-content-product-item-text li {
+    margin-bottom: 6px;
+}
+.product-gallery-one-content-product-item-text li:nth-child(2) {
+    font-weight: bold;
+}
+
