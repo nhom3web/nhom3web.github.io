@@ -1,72 +1,68 @@
 *{
-    font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-transform: capitalize;
-    transition: all .2s linear;
+    font-:family 'Poppins', sans-serif;/*Phông chữ cho tất cả*/
+    margin:0;
+    box-sizing: border-box; /* Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin. */
+    text-transform: capitalize; /*chữ đầu tiên của mỗi thành phần là chữ hoa */
   }
   
   .cacthe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:25px;
-    min-height: 100vh;
-    background-image: url(https://bizflyportal.mediacdn.vn/bizflyportal/1710/2427/2021/08/29/21/08/tic16302245334977.jpg);
-    background-size: cover;
+    display: flex;/*Khai báo để có thẻ sử dụng các thẻ flex*/
+    justify-content: center;/* giá trị này sẽ căn giữa các thành phần trong flexbox */
+    align-items: center;/* Các phần tử con sẽ được căn giữa theo trục chính của thẻ div */
+    padding: 20px;/*độ rộng phần padding*/
+    min-height: 100vh;/* độ cao tối thiểu */
+    background-image: url(https://bizflyportal.mediacdn.vn/bizflyportal/1710/2427/2021/08/29/21/08/tic16302245334977.jpg);/* */
+    background-size: cover;/* */
   }
   
   .cacthe form{
     padding:20px;
-    width:700px;
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    width:700px;/*thiết lập chiều rộng*/
+    background: #fff; /* nền */
+    box-shadow: 0 5px 10px rgba(0,0,0,.1); /* đổ bóng theo hàng ngang 5px dọc 10px */
   }
   
-  .cacthe form .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap:15px;
+  .cacthe form .hang{
+    display: flex; 
+    flex-wrap: wrap; /*hỗ trợ xuống dòng khi thay đổi kích thước của div*/
+    gap:15px; /*đặt khoảng cách giữa hàng và cột là 15px*/
   }
   
-  .cacthe form .row .col{
-    flex:1 1 250px;
+  .cacthe form .hang .cot{
+    flex:1 1 250px; 
+    /* Thuộc tính flex sử dụng để gộp chung ba thuộc tính flex-grow, flex-shrink và flex-basis
+       flex-gorw là 1 item sẽ tự động giãn ra đều nhau sao cho vừa với khung
+       flex-shrink là 1 cho phép các phần tử co lại bằng nhau khi độ rộng container giảm xuống
+       flex-basis là 250px sử dụng để xác định độ dài ban đầu của một item
+    */
   }
   
-  .cacthe form .row .col .title{
-    font-size: 20px;
-    color:#333;
-    padding-bottom: 5px;
-    text-transform: uppercase;
+  .cacthe form .hang .cot .title{
+    font-size: 20px; /* chỉnh kích cỡ chữ */
+    color:#333; /*màu*/
+    text-transform: uppercase; 
   }
   
-  .cacthe form .row .col .inputBox{
-    margin:15px 0;
+  .cacthe form .hang .cot .inputBox{
+    margin:15px 0; 
   }
-  
-  .cacthe form .row .col .inputBox span{
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  .cacthe form .row .col .inputBox input{
-    width: 100%;
-    border:1px solid #ccc;
-    padding:10px 15px;
+
+   .cacthe form .hang .cot .inputBox input{
+    width: 100%; 
+    padding:10px; 
     font-size: 15px;
-    text-transform: none;
+    text-transform: none; 
   }
   
-  .cacthe form .row .col .inputBox img{
+  .cacthe form .hang .cot .inputBox img{
     height: 34px;
-    margin-top: 5px;
-    filter: drop-shadow(0 0 1px #000);
+    margin-top: 5px; 
+    filter: drop-shadow(0 0 1px #000); 
   }
   
   .cacthe form .submit-thanhtoan{
     width: 100%;
-    padding:12px;
+    padding:12px; 
     font-size: 17px;
     background: #27ae60;
     color:#fff;
@@ -74,6 +70,6 @@
     cursor: pointer;
   }
   
-  .cacthe form .submit-thanhtoan:hover{
+  .cacthe form .submit-thanhtoan:hover{ 
     background: #2ecc71;
   }
