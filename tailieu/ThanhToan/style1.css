@@ -1,5 +1,5 @@
 *{
-    font-:family 'Poppins', sans-serif;/*Phông chữ cho tất cả*/
+    font-family:'Poppins', sans-serif;/*Phông chữ cho tất cả*/
     margin:0;
     box-sizing: border-box; /* Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin. */
     text-transform: capitalize; /*chữ đầu tiên của mỗi thành phần là chữ hoa */
