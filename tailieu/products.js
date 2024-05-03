@@ -142,6 +142,11 @@ const DB_products = [{
         price: 35000,
         image: "anh/tra/hi tea dao.webp"
     }, {
+        id: "hiteadautaytranchau",
+        title: "Hi-tea dâu tây trân châu",
+        price: 45000,
+        image: "anh/tra/hi tea dau tay man muoi tran chau.webp"
+    }, {
         id: "hiteadaokombucha",
         title: "Hi-tea đào kombucha",
         price: 45000,
