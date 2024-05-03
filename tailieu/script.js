@@ -1,3 +1,4 @@
+/***********************************************phancuadung********************** */
 const adressbtn = document.querySelector('#adress-form')
 const adressclose = document.querySelector('#adress-close')
 //console.log(adressbtn)
@@ -7,7 +8,7 @@ adressbtn.addEventListener("click", function(){
 adressclose.addEventListener("click", function(){
     document.querySelector('.adress-form').style.display="none"
 })
-
+/***********************************************phancuadat********************** */
 DB_products.forEach(function(category) {
     let productHtml = `
         <h1 id="doan">Bánh ngọt</h1>
