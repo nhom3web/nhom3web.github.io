@@ -11,7 +11,7 @@ adressclose.addEventListener("click", function(){
 /***********************************************phancuadat********************** */
 DB_products.forEach(function(category) {
     let productHtml = `
-        <h1 id="doan">Bánh ngọt</h1>
+        <h1>IGLASS</h1>
         <section>
             <div class="product-gallery-one-content-product">
     `;
