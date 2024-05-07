@@ -1,3 +1,4 @@
+ /******************************************phancuadung****************/
 *{
     margin: 0;
     padding: 0;
@@ -225,6 +226,7 @@ nav ul li:nth-child(8):hover a {
     justify-content: space-between;
     padding: 10px 2px;
  }
+ /******************************************phancuadat****************/
 /* -------------product---------- */
 .product-gallery-one-content-product{
     display:flex;

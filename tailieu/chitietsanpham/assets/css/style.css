@@ -1,0 +1,19 @@
+.body-wrapper {
+  position: relative
+}
+
+.body-wrapper>.container-fluid,
+.body-wrapper>.container-lg,
+.body-wrapper>.container-md,
+.body-wrapper>.container-sm,
+.body-wrapper>.container-xl,
+.body-wrapper>.container-xxl {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  transition: .2s ease-in
+}
+
+.mw-98 {
+  max-width: 98%
+}
