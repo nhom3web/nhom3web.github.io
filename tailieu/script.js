@@ -21,12 +21,12 @@ DB_products.forEach(function(category) {
         <div class="product-gallery-one-content-product-item" id="${item.id}" >
           <img src="/tailieu/${item.image}" alt="${item.title}">
           <div class="product-gallery-one-content-product-item-text">
-            <li>
+            <div>${item.title}</div>
+            <div>${item.price} <sup>đ</sup>
+            <div>
               <button>Thêm</button>
-            </li>
-            <li>${item.title}</li>
-            <li>${item.price} <sup>đ</sup>
-            </li>
+            </div>
+            </div>
           </div>
         </div>
         `;
