@@ -7,25 +7,23 @@
   
   .cacthe{
     display: flex;/*Khai báo để có thẻ sử dụng các thẻ flex*/
-    justify-content: center;/* giá trị này sẽ căn giữa các thành phần trong flexbox */
-    align-items: center;/* Các phần tử con sẽ được căn giữa theo trục chính của thẻ div */
+    justify-content: center;/* Căn chỉnh các phần tử con theo trục chính (theo chiều ngang) của phần tử cha để chúng được căn giữa theo chiều ngang.*/
+    align-items: center;/* Căn chỉnh các phần tử con theo trục phụ (theo chiều dọc) của phần tử cha để chúng được căn giữa theo chiều dọc */
     padding: 20px;/*độ rộng phần padding*/
-    min-height: 100vh;/* độ cao tối thiểu */
+    min-height: 100vh;/* hiết lập chiều cao tối thiểu của phần tử là 100% của chiều cao của cửa sổ trình duyệt */
     background-image: url(https://bizflyportal.mediacdn.vn/bizflyportal/1710/2427/2021/08/29/21/08/tic16302245334977.jpg);/* */
-    background-size: cover;/* */
+    background-size: cover;
   }
   
   .cacthe form{
     padding:20px;
-    width:700px;/*thiết lập chiều rộng*/
-    background: #fff; /* nền */
-    box-shadow: 0 5px 10px rgba(0,0,0,.1); /* đổ bóng theo hàng ngang 5px dọc 10px */
+    background: #fff; 
   }
   
   .cacthe form .hang{
     display: flex; 
-    flex-wrap: wrap; /*hỗ trợ xuống dòng khi thay đổi kích thước của div*/
-    gap:15px; /*đặt khoảng cách giữa hàng và cột là 15px*/
+    flex-wrap: wrap; /*hỗ trợ xuống dòng khi thay đổi kích thước */
+    gap:15px; /*đặt khoảng cách giữa các phần tử là 15px*/
   }
   
   .cacthe form .hang .cot{
