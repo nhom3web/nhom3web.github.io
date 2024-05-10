@@ -1,5 +1,5 @@
 *{
-    font-family:'Poppins', sans-serif;/*Phông chữ cho tất cả*/
+    font-family: sans-serif;/*Phông chữ cho tất cả*/
     margin:0;
     box-sizing: border-box; /* Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin. */
     text-transform: capitalize; /*chữ đầu tiên của mỗi thành phần là chữ hoa */
@@ -9,9 +9,8 @@
     display: flex;/*Khai báo để có thẻ sử dụng các thẻ flex*/
     justify-content: center;/* Căn chỉnh các phần tử con theo trục chính (theo chiều ngang) của phần tử cha để chúng được căn giữa theo chiều ngang.*/
     align-items: center;/* Căn chỉnh các phần tử con theo trục phụ (theo chiều dọc) của phần tử cha để chúng được căn giữa theo chiều dọc */
-    padding: 20px;/*độ rộng phần padding*/
     min-height: 100vh;/* hiết lập chiều cao tối thiểu của phần tử là 100% của chiều cao của cửa sổ trình duyệt */
-    background-image: url(https://bizflyportal.mediacdn.vn/bizflyportal/1710/2427/2021/08/29/21/08/tic16302245334977.jpg);/* */
+    background-image: url(https://bizflyportal.mediacdn.vn/bizflyportal/1710/2427/2021/08/29/21/08/tic16302245334977.jpg);
     background-size: cover;
   }
   
@@ -28,10 +27,9 @@
   
   .cacthe form .hang .cot{
     flex:1 1 250px; 
-    /* Thuộc tính flex sử dụng để gộp chung ba thuộc tính flex-grow, flex-shrink và flex-basis
-       flex-gorw là 1 item sẽ tự động giãn ra đều nhau sao cho vừa với khung
-       flex-shrink là 1 cho phép các phần tử co lại bằng nhau khi độ rộng container giảm xuống
-       flex-basis là 250px sử dụng để xác định độ dài ban đầu của một item
+    /* flex-grow: 1;: Phần tử này sẽ mở rộng để sử dụng toàn bộ không gian trống của hộp nếu cần.
+       flex-shrink: 1;: Phần tử này có thể co lại nếu không còn đủ không gian để hiển thị tất cả các phần tử con.
+       flex-basis: 250px;: Phần tử này sẽ có kích thước ban đầu là 250px trước khi flex-grow hoặc flex-shrink được áp dụng.
     */
   }
   
@@ -53,7 +51,7 @@
   }
   
   .cacthe form .hang .cot .inputBox img{
-    height: 34px;
+    height: 35px;
     margin-top: 5px; 
     filter: drop-shadow(0 0 1px #000); 
   }
